@@ -13,7 +13,7 @@ inputs:
   docker-image-tag:
     description: 'docker image tag'
     required: true
-    default: ${GITHUB_SHA::7}
+    default: ${GITHUB_SHA}
 
 runs:
   using: "composite"
